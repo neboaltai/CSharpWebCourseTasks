@@ -1,15 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Configuration;
 
 namespace ConfigFileTask
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
+            ReadSetting("SiteUrl");
+
+            Console.ReadKey();
+        }
+
+        private static void ReadSetting(string key)
+        {
+            try
+            {
+                var url = ConfigurationManager.AppSettings[key] ?? "Not found";
+
+                Console.WriteLine("Site: " + url);
+            }
+            catch (ConfigurationErrorsException)
+            {
+                Console.WriteLine("Error reading app setting");
+            }
         }
     }
 }

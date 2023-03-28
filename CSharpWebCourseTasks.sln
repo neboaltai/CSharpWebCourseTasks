@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigFileTask", "ConfigFileTask\ConfigFileTask.csproj", "{B4D1B6E6-1D65-4FB9-BA12-52300FCC34F0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignAssembly", "SignAssembly", "{9B5D66E3-CCC0-4B8B-9A94-15851A449F78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
