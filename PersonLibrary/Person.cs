@@ -8,8 +8,6 @@ namespace PersonLibrary
 
         public int Cash { get; set; }
 
-        public Person() { }
-
         public Person(string name, int cash)
         {
             Name = name;
@@ -29,7 +27,8 @@ namespace PersonLibrary
 
                 return 0;
             }
-            else if (amount > Cash)
+
+            if (amount > Cash)
             {
                 Console.WriteLine($"{Name} says: I don't have enough cash to give you ${amount}");
 
