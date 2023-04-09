@@ -52,10 +52,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy $(ProjectDir)\bin\Debug\ $(ProjectDir)\xcopy\</PostBuildEvent>
+    <PostBuildEvent>xcopy $(ProjectDir)bin\Debug\ $(ProjectDir)xcopy\</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>
-    </PreBuildEvent>
+    <PreBuildEvent>rd /s /q $(ProjectDir)xcopy\</PreBuildEvent>
   </PropertyGroup>
 </Project>
