@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonLibrary", "PersonLibr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalCompilation", "ConditionalCompilation\ConditionalCompilation.csproj", "{DB340AF1-FFC8-40A3-915F-CB8DF6F41E77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelTask", "ExcelTask\ExcelTask.csproj", "{E6B9C8FC-8780-4E2B-9B5F-56CB4D4AF4BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{DB340AF1-FFC8-40A3-915F-CB8DF6F41E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB340AF1-FFC8-40A3-915F-CB8DF6F41E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB340AF1-FFC8-40A3-915F-CB8DF6F41E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B9C8FC-8780-4E2B-9B5F-56CB4D4AF4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B9C8FC-8780-4E2B-9B5F-56CB4D4AF4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B9C8FC-8780-4E2B-9B5F-56CB4D4AF4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B9C8FC-8780-4E2B-9B5F-56CB4D4AF4BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
